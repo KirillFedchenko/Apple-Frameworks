@@ -9,7 +9,11 @@ import SwiftUI
 
 struct FrameworksView: View {
     var body: some View {
-        Text("Hello ne world")
+        VStack {
+            Text("This is new text for git")
+            Text("That is another text for git")
+            Text("And another one")
+        }
     }
 }
 
