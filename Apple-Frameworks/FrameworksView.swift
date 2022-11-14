@@ -12,7 +12,17 @@ struct FrameworksView: View {
         VStack {
             Text("This is new text for git")
             Text("That is another text for git")
-            Text("And another one")
+            HStack {
+                Text("New text")
+                    .foregroundColor(.gray)
+                    .font(.body)
+                Spacer()
+                
+                Text("New text 2")
+                    .foregroundColor(.gray)
+                    .font(.body)
+            }
+            .padding([.leading, .trailing])
         }
     }
 }
