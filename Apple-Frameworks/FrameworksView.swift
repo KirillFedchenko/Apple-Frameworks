@@ -17,7 +17,6 @@ struct FrameworksView: View {
                     .foregroundColor(.gray)
                     .font(.body)
                 Spacer()
-                
                 Text("New text 2")
                     .foregroundColor(.gray)
                     .font(.body)
